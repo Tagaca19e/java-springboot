@@ -1,6 +1,7 @@
 package com.project.payroll.repositories;
 
-import com.project.payroll.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.project.payroll.entities.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {}
